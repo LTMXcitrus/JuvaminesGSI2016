@@ -1,4 +1,5 @@
-//created by GSI students. Available on www.github.com/EMNGSI
+//created by GSI students. Available on www.github.com/LTMXcitrus/JuvaminesGSI2016/
+// Original idea by aversi13 and mlemon13 #GeekdOr
 public class GSI extends OptionEMN {
 
 
@@ -20,10 +21,12 @@ this.RO = new RO(“Grall”);
 
 
     
-    	public String getAdjectif(String prenom){
+    	public String getDescription(String prenom){
    		 switch(prenom){
    			 case "Augustin":
    				 return "Est apprécié par son RO pour son tact";
+   			case "Olek":
+   				return "Thug life, deal with it."
 		//TODO : implémenter un adjectif par etudiant
 			//TODO : trouver une architecture plus modulaire
    	 }
