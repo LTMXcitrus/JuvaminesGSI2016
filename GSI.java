@@ -23,10 +23,40 @@ this.RO = new RO(“Grall”);
     
     	public String getDescription(String prenom){
    		 switch(prenom){
-   			 case "Augustin":
-   				 return "Est apprécié par son RO pour son tact";
+   			 
    			case "Olek":
    				return "Thug life, deal with it."
+   			case "Anqi":
+   				return "Ne prend pas les pauses au sérieux"
+   			case "Sonia":
+   			
+   			case "Thomas":
+   			case "Angelin":
+   			case "Quentin":
+   			case "Pierre":
+   			case "Micaël":
+   			case "Aurore":
+   			case "Matthieu":
+   			case "Christophe":
+   			case "Samuel":
+   				
+   			case "Melyna":
+   			case "Nicolas":
+   			case "Augustin":
+   				throw new TabarnakException();
+   				
+   			case "David":
+   			case "Marc":
+   				throw new NotAvailableAskOnTwitch();
+   				
+   			case "Joël":
+   			case "Julien":
+   				throw new NotFoundException();
+   			
+   			
+   			if( prenom == Augustin && EstAgacé){
+   					return "Est apprécié par son RO pour son tact";
+   				}
 		//TODO : implémenter un adjectif par etudiant
 			//TODO : trouver une architecture plus modulaire
    	 }
