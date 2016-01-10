@@ -34,7 +34,7 @@ public static final String DEVISE = “Geek is the new sexy() ”;
    			case "Quentin": return membres.get("Quentin").isNotFound ? "Is with Sasha" : "\n";
    			case "Pierre": return "I don't have a clou";
    			case "Micaël": return "Our own Steve Jobs";
-   			case "Aurore": return 
+   			case "Aurore": return new java.awt.Drawing().getSVG();
    			case "Matthieu": return "SIC(k) of the SIC";
    				
    			case "Christophe": return "don't Metz with me";
