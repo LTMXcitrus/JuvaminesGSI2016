@@ -38,7 +38,7 @@ this.RO = new RO(“Grall”);
    			case "Aurore":
    			case "Matthieu":
    			case "Christophe":
-   			case "Samuel":
+   				return "don't Metz with me"
    				
    			case "Melyna":
    			case "Nicolas":
@@ -46,6 +46,7 @@ this.RO = new RO(“Grall”);
    				throw new TabarnakException();
    				
    			case "David":
+   			case "Samuel":
    			case "Marc":
    				throw new NotAvailableAskOnTwitch();
    				
@@ -53,10 +54,10 @@ this.RO = new RO(“Grall”);
    			case "Julien":
    				throw new NotFoundException();
    			
-   			
-   			if( prenom == Augustin && EstAgacé){
-   					return "Est apprécié par son RO pour son tact";
-   				}
+   			case "Augustin est agacé":
+      				return "Est apprécié par son RO pour son tact";
+      				
+      				
 		//TODO : implémenter un adjectif par etudiant
 			//TODO : trouver une architecture plus modulaire
    	 }
