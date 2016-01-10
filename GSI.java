@@ -34,6 +34,7 @@ this.RO = new RO(“Grall”);
    			case "Angelin":
    			case "Quentin":
    			case "Pierre":
+   				return "I don't have a clou"
    			case "Micaël":
    			case "Aurore":
    			case "Matthieu":
