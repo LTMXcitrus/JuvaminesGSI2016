@@ -39,7 +39,7 @@ public static final String DEVISE = “Geek is the new sexy() ”;
    				
    			case "Christophe": return "don't Metz with me";
    				
-   			case "Melyna": throw new CaliceExcepction();
+   			case "Melyna": throw new CaliceException();
    			case "Nicolas": throw new CrissDHostieException();
    			case "Augustin": throw new TabarnakException();
    				
